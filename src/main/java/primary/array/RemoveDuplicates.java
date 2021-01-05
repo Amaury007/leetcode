@@ -3,6 +3,7 @@ package primary.array;
 import java.util.HashSet;
 
 /**
+ * 删除排序数组中的重复项
  * @Author sannian
  * @Date 2020/12/14 10:55
  * @Version 1.0
@@ -33,7 +34,7 @@ public class RemoveDuplicates {
         printNums(nums, len);
     }
 
-    private static int unique4(int[] nums) {
+    private static int unique2(int[] nums) {
         if (nums.length==0){
             return 0;
         }
@@ -48,7 +49,9 @@ public class RemoveDuplicates {
     }
 
     private static int unique1(int[] nums){
-        if (nums.length == 0) return 0;
+        if (nums.length == 0) {
+            return 0;
+        }
         int i = 0;
         for (int j = 1; j < nums.length; j++) {
             if (nums[j] != nums[i]) {
