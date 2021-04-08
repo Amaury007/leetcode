@@ -7,6 +7,12 @@
     <groupId>org.example</groupId>
     <artifactId>leetcode</artifactId>
     <version>1.0-SNAPSHOT</version>
-
-
+    <dependencies>
+        <!--netty -->
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.35.Final</version>
+        </dependency>
+    </dependencies>
 </project>
